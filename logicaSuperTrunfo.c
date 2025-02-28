@@ -21,7 +21,7 @@ int main() {
         double pibpercap,pibpercap2, pibpercap3, pibpercap4, pibpercap5, pibpercap6, pibpercap7, pibpercap8, pibpercap9, pibpercap10, pibpercap11, pibpercap12, pibpercap13, pibpercap14, pibpercap15, pibpercap16, pibpercap17, pibpercap18, pibpercap19, pibpercap20, pibpercap21, pibpercap22, pibpercap23, pibpercap24, pibpercap25, pibpercap26, pibpercap27, pibpercap28, pibpercap29, pibpercap30, pibpercap31, pibpercap32;
         double densidade,densidade2,densidade3,densidade4,densidade5,densidade6,densidade7,densidade8,densidade9,densidade10,densidade11,densidade12,densidade13,densidade14,densidade15,densidade16,densidade17,densidade18,densidade19,densidade20,densidade21,densidade22,densidade23,densidade24,densidade25,densidade26,densidade27,densidade28,densidade29,densidade30,densidade31,densidade32;
         double superpoder,superpoder2,superpoder3,superpoder4,superpoder5,superpoder6,superpoder7,superpoder8,superpoder9,superpoder10,superpoder11,superpoder12,superpoder13,superpoder14,superpoder15,superpoder16,superpoder17,superpoder18,superpoder19,superpoder20,superpoder21,superpoder22,superpoder23,superpoder24,superpoder25,superpoder26,superpoder27,superpoder28,superpoder29,superpoder30,superpoder31,superpoder32;
-        int escolha, escolha2, escolhac;
+        int escolha;
         //funções para os cadastros das cidades
        
         printf("Cadastro 1\n");
@@ -805,209 +805,62 @@ int main() {
         printf("Densidade populacional: %.2f\n", densidade32);
         printf(" Super poder: %.2f\n", superpoder32);
         
-        printf("Escolha uma cidade pelo seu número de cadastro para a comparação: "); //função para selecionar a cidade
-        scanf("%i", &escolha);
-        
-        if (escolha == 1){
-            printf("Dados da cidade selecionada: \nPopulação: %i\nÁrea: %.2f\nPIB: %.2f\nPontos turísticos: %i\n PIB per capita %.2f\n Densidade: %.2f\n Super poder: %.2f\n", populacao, area, pib, pt, pibpercap, densidade, superpoder);
-        }
-        if (escolha == 2){
-            printf("Dados da cidade selecionada: \nPopulação: %i\nÁrea: %.2f\nPIB: %.2f\nPontos turísticos: %i\n PIB per capita %.2f\n Densidade: %.2f\n Super poder: %.2f\n", populacao2, area2, pib2, pt2, pibpercap2, densidade2, superpoder2);
-        }
-        if (escolha == 3){
-            printf("Dados da cidade selecionada: \nPopulação: %i\nÁrea: %.2f\nPIB: %.2f\nPontos turísticos: %i\n PIB per capita %.2f\n Densidade: %.2f\n Super poder: %.2f\n", populacao3, area3, pib3, pt3, pibpercap3, densidade3, superpoder3);
-        }
-        if (escolha == 4){
-            printf("Dados da cidade selecionada: \nPopulação: %i\nÁrea: %.2f\nPIB: %.2f\nPontos turísticos: %i\n PIB per capita %.2f\n Densidade: %.2f\n Super poder: %.2f\n", populacao4, area4, pib4, pt4, pibpercap4, densidade4, superpoder4);
-        }
-        if (escolha == 5){
-            printf("Dados da cidade selecionada: \nPopulação: %i\nÁrea: %.2f\nPIB: %.2f\nPontos turísticos: %i\n PIB per capita %.2f\n Densidade: %.2f\n Super poder: %.2f\n", populacao5, area5, pib5, pt5, pibpercap5, densidade5, superpoder5);
-        }
-        if (escolha == 6){
-            printf("Dados da cidade selecionada: \nPopulação: %i\nÁrea: %.2f\nPIB: %.2f\nPontos turísticos: %i\n PIB per capita %.2f\n Densidade: %.2f\n Super poder: %.2f\n", populacao6, area6, pib6, pt6, pibpercap6, densidade6, superpoder6);
-        }
-        if (escolha == 7){
-            printf("Dados da cidade selecionada: \nPopulação: %i\nÁrea: %.2f\nPIB: %.2f\nPontos turísticos: %i\n PIB per capita %.2f\n Densidade: %.2f\n Super poder: %.2f\n", populacao7, area7, pib7, pt7, pibpercap7, densidade7, superpoder7);
-        }
-        if (escolha == 8){
-            printf("Dados da cidade selecionada: \nPopulação: %i\nÁrea: %.2f\nPIB: %.2f\nPontos turísticos: %i\n PIB per capita %.2f\n Densidade: %.2f\n Super poder: %.2f\n", populacao8, area8, pib8, pt8, pibpercap8, densidade8, superpoder8);
-        }
-        if (escolha == 9){
-            printf("Dados da cidade selecionada: \nPopulação: %i\nÁrea: %.2f\nPIB: %.2f\nPontos turísticos: %i\n PIB per capita %.2f\n Densidade: %.2f\n Super poder: %.2f\n", populacao9, area9, pib9, pt9, pibpercap9, densidade9, superpoder9);
-        }
-        if (escolha == 10){
-            printf("Dados da cidade selecionada: \nPopulação: %i\nÁrea: %.2f\nPIB: %.2f\nPontos turísticos: %i\n PIB per capita %.2f\n Densidade: %.2f\n Super poder: %.2f\n", populacao10, area10, pib10, pt10, pibpercap10, densidade10, superpoder10);
-        }
-        if (escolha == 11){
-            printf("Dados da cidade selecionada: \nPopulação: %i\nÁrea: %.2f\nPIB: %.2f\nPontos turísticos: %i\n PIB per capita %.2f\n Densidade: %.2f\n Super poder: %.2f\n", populacao11, area11, pib11, pt11, pibpercap11, densidade11, superpoder11);
-        }
-        if (escolha == 12){
-            printf("Dados da cidade selecionada: \nPopulação: %i\nÁrea: %.2f\nPIB: %.2f\nPontos turísticos: %i\n PIB per capita %.2f\n Densidade: %.2f\n Super poder: %.2f\n", populacao12, area12, pib12, pt12, pibpercap12, densidade12, superpoder12);
-        }
-        if (escolha == 13){
-            printf("Dados da cidade selecionada: \nPopulação: %i\nÁrea: %.2f\nPIB: %.2f\nPontos turísticos: %i\n PIB per capita %.2f\n Densidade: %.2f\n Super poder: %.2f\n", populacao13, area13, pib13, pt13, pibpercap13, densidade13, superpoder13);
-        }
-        if (escolha == 14){
-            printf("Dados da cidade selecionada: \nPopulação: %i\nÁrea: %.2f\nPIB: %.2f\nPontos turísticos: %i\n PIB per capita %.2f\n Densidade: %.2f\n Super poder: %.2f\n", populacao14, area14, pib14, pt14, pibpercap14, densidade14, superpoder14);
-        }
-        if (escolha == 15){
-            printf("Dados da cidade selecionada: \nPopulação: %i\nÁrea: %.2f\nPIB: %.2f\nPontos turísticos: %i\n PIB per capita %.2f\n Densidade: %.2f\n Super poder: %.2f\n", populacao15, area15, pib15, pt15, pibpercap15, densidade15, superpoder15);
-        }
-        if (escolha == 16){
-            printf("Dados da cidade selecionada: \nPopulação: %i\nÁrea: %.2f\nPIB: %.2f\nPontos turísticos: %i\n PIB per capita %.2f\n Densidade: %.2f\n Super poder: %.2f\n", populacao16, area16, pib16, pt16, pibpercap16, densidade16, superpoder16);
-        }
-        if (escolha == 17){
-            printf("Dados da cidade selecionada: \nPopulação: %i\nÁrea: %.2f\nPIB: %.2f\nPontos turísticos: %i\n PIB per capita %.2f\n Densidade: %.2f\n Super poder: %.2f\n", populacao17, area17, pib17, pt17, pibpercap17, densidade17, superpoder17);
-        }
-        if (escolha == 18){
-            printf("Dados da cidade selecionada: \nPopulação: %i\nÁrea: %.2f\nPIB: %.2f\nPontos turísticos: %i\n PIB per capita %.2f\n Densidade: %.2f\n Super poder: %.2f\n", populacao18, area18, pib18, pt18, pibpercap18, densidade18, superpoder18);
-        }
-        if (escolha == 19){
-            printf("Dados da cidade selecionada: \nPopulação: %i\nÁrea: %.2f\nPIB: %.2f\nPontos turísticos: %i\n PIB per capita %.2f\n Densidade: %.2f\n Super poder: %.2f\n", populacao19, area19, pib19, pt19, pibpercap19, densidade19, superpoder19);
-        }
-        if (escolha == 20){
-            printf("Dados da cidade selecionada: \nPopulação: %i\nÁrea: %.2f\nPIB: %.2f\nPontos turísticos: %i\n PIB per capita %.2f\n Densidade: %.2f\n Super poder: %.2f\n", populacao20, area20, pib20, pt20, pibpercap20, densidade20, superpoder20);
-        }
-        if (escolha == 21){
-            printf("Dados da cidade selecionada: \nPopulação: %i\nÁrea: %.2f\nPIB: %.2f\nPontos turísticos: %i\n PIB per capita %.2f\n Densidade: %.2f\n Super poder: %.2f\n", populacao21, area21, pib21, pt21, pibpercap21, densidade21, superpoder21);
-        }
-        if (escolha == 22){
-            printf("Dados da cidade selecionada: \nPopulação: %i\nÁrea: %.2f\nPIB: %.2f\nPontos turísticos: %i\n PIB per capita %.2f\n Densidade: %.2f\n Super poder: %.2f\n", populacao22, area22, pib22, pt22, pibpercap22, densidade22, superpoder22);
-        }
-        if (escolha == 23){
-            printf("Dados da cidade selecionada: \nPopulação: %i\nÁrea: %.2f\nPIB: %.2f\nPontos turísticos: %i\n PIB per capita %.2f\n Densidade: %.2f\n Super poder: %.2f\n", populacao23, area23, pib23, pt23, pibpercap23, densidade23, superpoder23);
-        }
-        if (escolha == 24){
-            printf("Dados da cidade selecionada: \nPopulação: %i\nÁrea: %.2f\nPIB: %.2f\nPontos turísticos: %i\n PIB per capita %.2f\n Densidade: %.2f\n Super poder: %.2f\n", populacao24, area24, pib24, pt24, pibpercap24, densidade24, superpoder24);
-        }
-        if (escolha == 25){
-            printf("Dados da cidade selecionada: \nPopulação: %i\nÁrea: %.2f\nPIB: %.2f\nPontos turísticos: %i\n PIB per capita %.2f\n Densidade: %.2f\n Super poder: %.2f\n", populacao25, area25, pib25, pt25, pibpercap25, densidade25, superpoder25);
-        }
-        if (escolha == 26){
-            printf("Dados da cidade selecionada: \nPopulação: %i\nÁrea: %.2f\nPIB: %.2f\nPontos turísticos: %i\n PIB per capita %.2f\n Densidade: %.2f\n Super poder: %.2f\n", populacao26, area26, pib26, pt26, pibpercap26, densidade26, superpoder26);
-        }
-        if (escolha == 27){
-            printf("Dados da cidade selecionada: \nPopulação: %i\nÁrea: %.2f\nPIB: %.2f\nPontos turísticos: %i\n PIB per capita %.2f\n Densidade: %.2f\n Super poder: %.2f\n", populacao27, area27, pib27, pt27, pibpercap27, densidade27, superpoder27);
-        }
-        if (escolha == 28){
-            printf("Dados da cidade selecionada: \nPopulação: %i\nÁrea: %.2f\nPIB: %.2f\nPontos turísticos: %i\n PIB per capita %.2f\n Densidade: %.2f\n Super poder: %.2f\n", populacao28, area28, pib28, pt28, pibpercap28, densidade28, superpoder28);
-        }
-        if (escolha == 29){
-            printf("Dados da cidade selecionada: \nPopulação: %i\nÁrea: %.2f\nPIB: %.2f\nPontos turísticos: %i\n PIB per capita %.2f\n Densidade: %.2f\n Super poder: %.2f\n", populacao29, area29, pib29, pt29, pibpercap29, densidade29, superpoder29);
-        }
-        if (escolha == 30){
-            printf("Dados da cidade selecionada: \nPopulação: %i\nÁrea: %.2f\nPIB: %.2f\nPontos turísticos: %i\n PIB per capita %.2f\n Densidade: %.2f\n Super poder: %.2f\n", populacao30, area30, pib30, pt30, pibpercap30, densidade30, superpoder30);
-        }
-        if (escolha == 31){
-            printf("Dados da cidade selecionada: \nPopulação: %i\nÁrea: %.2f\nPIB: %.2f\nPontos turísticos: %i\n PIB per capita %.2f\n Densidade: %.2f\n Super poder: %.2f\n", populacao31, area31, pib31, pt31, pibpercap31, densidade31, superpoder31);
-        }
-        if (escolha == 32){
-            printf("Dados da cidade selecionada: \nPopulação: %i\nÁrea: %.2f\nPIB: %.2f\nPontos turísticos: %i\n PIB per capita %.2f\n Densidade: %.2f\n Super poder: %.2f\n", populacao32, area32, pib32, pt32, pibpercap32, densidade32, superpoder32);
-        }
+        printf("\nCidade 1\n População: %i\n Área: %.2f\n PIB: %.2f\n Pontos Turísticos: %i\n PIB per capita: %.2f\n Densidade populacional: %.2f\n Super poder: %.2f\n", populacao, area,pib,pt,pibpercap,densidade,superpoder);    
+        printf("\nCidade 2\n População: %i\n Área: %.2f\n PIB: %.2f\n Pontos Turísticos: %i\n PIB per capita: %.2f\n Densidade populacional: %.2f\n Super poder: %.2f\n", populacao2, area2,pib2,pt2,pibpercap2,densidade2,superpoder2);    
     
-        printf("Escolha outra cidade pelo seu número de cadastro para a comparação(não utilize a mesma cidade da primeira opção): "); 
-        scanf("%i", &escolha2);               
-        
-        if (escolha2 == 1){
-            printf("Dados da cidade selecionada: \nPopulação: %i\nÁrea: %.2f\nPIB: %.2f\nPontos turísticos: %i\n PIB per capita %.2f\n Densidade: %.2f\n Super poder: %.2f\n", populacao, area, pib, pt, pibpercap, densidade, superpoder);
+        printf("Escolha um dos atributos para a comparação: 1-população\n 2-área\n 3-pib\n 4-pontos turísticos\n 5-pib per capita\n 6-densidade populacional\n 7-super poder\n");
+        scanf("%i", &escolha);
+        if(escolha == 1){
+            if(populacao>populacao2){
+                printf("Cidade 1 venceu");
+            }else{
+                printf("Cidade 2 venceu");
+            }
         }
-        if (escolha2 == 2){
-            printf("Dados da cidade selecionada: \nPopulação: %i\nÁrea: %.2f\nPIB: %.2f\nPontos turísticos: %i\n PIB per capita %.2f\n Densidade: %.2f\n Super poder: %.2f\n", populacao2, area2, pib2, pt2, pibpercap2, densidade2, superpoder2);
+        if(escolha == 2 ){
+            if(area>area2){
+                printf("Cidade 1 venceu");
+            }else{
+                printf("Cidade 2 venceu");
+            }
         }
-        if (escolha2 == 3){
-            printf("Dados da cidade selecionada: \nPopulação: %i\nÁrea: %.2f\nPIB: %.2f\nPontos turísticos: %i\n PIB per capita %.2f\n Densidade: %.2f\n Super poder: %.2f\n", populacao3, area3, pib3, pt3, pibpercap3, densidade3, superpoder3);
+        if(escolha == 3){
+            if(pib>pib2){
+                printf("Cidade 1 venceu");
+            }else{
+                printf("Cidade 2 venceu");
+            }
         }
-        if (escolha2 == 4){
-            printf("Dados da cidade selecionada: \nPopulação: %i\nÁrea: %.2f\nPIB: %.2f\nPontos turísticos: %i\n PIB per capita %.2f\n Densidade: %.2f\n Super poder: %.2f\n", populacao4, area4, pib4, pt4, pibpercap4, densidade4, superpoder4);
+        if(escolha == 4){
+            if(pt>pt2){
+                printf("Cidade 1 venceu");
+            }else{
+                printf("Cidade 2 venceu");
+            }
         }
-        if (escolha2 == 5){
-            printf("Dados da cidade selecionada: \nPopulação: %i\nÁrea: %.2f\nPIB: %.2f\nPontos turísticos: %i\n PIB per capita %.2f\n Densidade: %.2f\n Super poder: %.2f\n", populacao5, area5, pib5, pt5, pibpercap5, densidade5, superpoder5);
+        if(escolha == 5){
+            if(pibpercap>pibpercap2){
+                printf("Cidade 1 venceu");
+            }else{
+                printf("Cidade 2 venceu");
+            }
         }
-        if (escolha2 == 6){
-            printf("Dados da cidade selecionada: \nPopulação: %i\nÁrea: %.2f\nPIB: %.2f\nPontos turísticos: %i\n PIB per capita %.2f\n Densidade: %.2f\n Super poder: %.2f\n", populacao6, area6, pib6, pt6, pibpercap6, densidade6, superpoder6);
+        if(escolha == 6){
+            if(densidade<densidade2){
+                printf("Cidade 1 venceu");
+            }else{
+                printf("Cidade 2 venceu");
+            }
         }
-        if (escolha2 == 7){
-            printf("Dados da cidade selecionada: \nPopulação: %i\nÁrea: %.2f\nPIB: %.2f\nPontos turísticos: %i\n PIB per capita %.2f\n Densidade: %.2f\n Super poder: %.2f\n", populacao7, area7, pib7, pt7, pibpercap7, densidade7, superpoder7);
+        if(escolha == 7){
+            if(superpoder>superpoder2){
+                printf("Cidade 1 venceu");
+            }else{
+                printf("Cidade 2 venceu");
+            }
         }
-        if (escolha2 == 8){
-            printf("Dados da cidade selecionada: \nPopulação: %i\nÁrea: %.2f\nPIB: %.2f\nPontos turísticos: %i\n PIB per capita %.2f\n Densidade: %.2f\n Super poder: %.2f\n", populacao8, area8, pib8, pt8, pibpercap8, densidade8, superpoder8);
-        }
-        if (escolha2 == 9){
-            printf("Dados da cidade selecionada: \nPopulação: %i\nÁrea: %.2f\nPIB: %.2f\nPontos turísticos: %i\n PIB per capita %.2f\n Densidade: %.2f\n Super poder: %.2f\n", populacao9, area9, pib9, pt9, pibpercap9, densidade9, superpoder9);
-        }
-        if (escolha2 == 10){
-            printf("Dados da cidade selecionada: \nPopulação: %i\nÁrea: %.2f\nPIB: %.2f\nPontos turísticos: %i\n PIB per capita %.2f\n Densidade: %.2f\n Super poder: %.2f\n", populacao10, area10, pib10, pt10, pibpercap10, densidade10, superpoder10);
-        }
-        if (escolha2 == 11){
-            printf("Dados da cidade selecionada: \nPopulação: %i\nÁrea: %.2f\nPIB: %.2f\nPontos turísticos: %i\n PIB per capita %.2f\n Densidade: %.2f\n Super poder: %.2f\n", populacao11, area11, pib11, pt11, pibpercap11, densidade11, superpoder11);
-        }
-        if (escolha2 == 12){
-            printf("Dados da cidade selecionada: \nPopulação: %i\nÁrea: %.2f\nPIB: %.2f\nPontos turísticos: %i\n PIB per capita %.2f\n Densidade: %.2f\n Super poder: %.2f\n", populacao12, area12, pib12, pt12, pibpercap12, densidade12, superpoder12);
-        }
-        if (escolha2 == 13){
-            printf("Dados da cidade selecionada: \nPopulação: %i\nÁrea: %.2f\nPIB: %.2f\nPontos turísticos: %i\n PIB per capita %.2f\n Densidade: %.2f\n Super poder: %.2f\n", populacao13, area13, pib13, pt13, pibpercap13, densidade13, superpoder13);
-        }
-        if (escolha2 == 14){
-            printf("Dados da cidade selecionada: \nPopulação: %i\nÁrea: %.2f\nPIB: %.2f\nPontos turísticos: %i\n PIB per capita %.2f\n Densidade: %.2f\n Super poder: %.2f\n", populacao14, area14, pib14, pt14, pibpercap14, densidade14, superpoder14);
-        }
-        if (escolha2 == 15){
-            printf("Dados da cidade selecionada: \nPopulação: %i\nÁrea: %.2f\nPIB: %.2f\nPontos turísticos: %i\n PIB per capita %.2f\n Densidade: %.2f\n Super poder: %.2f\n", populacao15, area15, pib15, pt15, pibpercap15, densidade15, superpoder15);
-        }
-        if (escolha2 == 16){
-            printf("Dados da cidade selecionada: \nPopulação: %i\nÁrea: %.2f\nPIB: %.2f\nPontos turísticos: %i\n PIB per capita %.2f\n Densidade: %.2f\n Super poder: %.2f\n", populacao16, area16, pib16, pt16, pibpercap16, densidade16, superpoder16);
-        }
-        if (escolha2 == 17){
-            printf("Dados da cidade selecionada: \nPopulação: %i\nÁrea: %.2f\nPIB: %.2f\nPontos turísticos: %i\n PIB per capita %.2f\n Densidade: %.2f\n Super poder: %.2f\n", populacao17, area17, pib17, pt17, pibpercap17, densidade17, superpoder17);
-        }
-        if (escolha2 == 18){
-            printf("Dados da cidade selecionada: \nPopulação: %i\nÁrea: %.2f\nPIB: %.2f\nPontos turísticos: %i\n PIB per capita %.2f\n Densidade: %.2f\n Super poder: %.2f\n", populacao18, area18, pib18, pt18, pibpercap18, densidade18, superpoder18);
-        }
-        if (escolha2 == 19){
-            printf("Dados da cidade selecionada: \nPopulação: %i\nÁrea: %.2f\nPIB: %.2f\nPontos turísticos: %i\n PIB per capita %.2f\n Densidade: %.2f\n Super poder: %.2f\n", populacao19, area19, pib19, pt19, pibpercap19, densidade19, superpoder19);
-        }
-        if (escolha2 == 20){
-            printf("Dados da cidade selecionada: \nPopulação: %i\nÁrea: %.2f\nPIB: %.2f\nPontos turísticos: %i\n PIB per capita %.2f\n Densidade: %.2f\n Super poder: %.2f\n", populacao20, area20, pib20, pt20, pibpercap20, densidade20, superpoder20);
-        }
-        if (escolha2 == 21){
-            printf("Dados da cidade selecionada: \nPopulação: %i\nÁrea: %.2f\nPIB: %.2f\nPontos turísticos: %i\n PIB per capita %.2f\n Densidade: %.2f\n Super poder: %.2f\n", populacao21, area21, pib21, pt21, pibpercap21, densidade21, superpoder21);
-        }
-        if (escolha2 == 22){
-            printf("Dados da cidade selecionada: \nPopulação: %i\nÁrea: %.2f\nPIB: %.2f\nPontos turísticos: %i\n PIB per capita %.2f\n Densidade: %.2f\n Super poder: %.2f\n", populacao22, area22, pib22, pt22, pibpercap22, densidade22, superpoder22);
-        }
-        if (escolha2 == 23){
-            printf("Dados da cidade selecionada: \nPopulação: %i\nÁrea: %.2f\nPIB: %.2f\nPontos turísticos: %i\n PIB per capita %.2f\n Densidade: %.2f\n Super poder: %.2f\n", populacao23, area23, pib23, pt23, pibpercap23, densidade23, superpoder23);
-        }
-        if (escolha2 == 24){
-            printf("Dados da cidade selecionada: \nPopulação: %i\nÁrea: %.2f\nPIB: %.2f\nPontos turísticos: %i\n PIB per capita %.2f\n Densidade: %.2f\n Super poder: %.2f\n", populacao24, area24, pib24, pt24, pibpercap24, densidade24, superpoder24);
-        }
-        if (escolha2 == 25){
-            printf("Dados da cidade selecionada: \nPopulação: %i\nÁrea: %.2f\nPIB: %.2f\nPontos turísticos: %i\n PIB per capita %.2f\n Densidade: %.2f\n Super poder: %.2f\n", populacao25, area25, pib25, pt25, pibpercap25, densidade25, superpoder25);
-        }
-        if (escolha2 == 26){
-            printf("Dados da cidade selecionada: \nPopulação: %i\nÁrea: %.2f\nPIB: %.2f\nPontos turísticos: %i\n PIB per capita %.2f\n Densidade: %.2f\n Super poder: %.2f\n", populacao26, area26, pib26, pt26, pibpercap26, densidade26, superpoder26);
-        }
-        if (escolha2 == 27){
-            printf("Dados da cidade selecionada: \nPopulação: %i\nÁrea: %.2f\nPIB: %.2f\nPontos turísticos: %i\n PIB per capita %.2f\n Densidade: %.2f\n Super poder: %.2f\n", populacao27, area27, pib27, pt27, pibpercap27, densidade27, superpoder27);
-        }
-        if (escolha2 == 28){
-            printf("Dados da cidade selecionada: \nPopulação: %i\nÁrea: %.2f\nPIB: %.2f\nPontos turísticos: %i\n PIB per capita %.2f\n Densidade: %.2f\n Super poder: %.2f\n", populacao28, area28, pib28, pt28, pibpercap28, densidade28, superpoder28);
-        }
-        if (escolha2 == 29){
-            printf("Dados da cidade selecionada: \nPopulação: %i\nÁrea: %.2f\nPIB: %.2f\nPontos turísticos: %i\n PIB per capita %.2f\n Densidade: %.2f\n Super poder: %.2f\n", populacao29, area29, pib29, pt29, pibpercap29, densidade29, superpoder29);
-        }
-        if (escolha2 == 30){
-            printf("Dados da cidade selecionada: \nPopulação: %i\nÁrea: %.2f\nPIB: %.2f\nPontos turísticos: %i\n PIB per capita %.2f\n Densidade: %.2f\n Super poder: %.2f\n", populacao30, area30, pib30, pt30, pibpercap30, densidade30, superpoder30);
-        }
-        if (escolha2 == 31){
-            printf("Dados da cidade selecionada: \nPopulação: %i\nÁrea: %.2f\nPIB: %.2f\nPontos turísticos: %i\n PIB per capita %.2f\n Densidade: %.2f\n Super poder: %.2f\n", populacao31, area31, pib31, pt31, pibpercap31, densidade31, superpoder31);
-        }
-        if (escolha2 == 32){
-            printf("Dados da cidade selecionada: \nPopulação: %i\nÁrea: %.2f\nPIB: %.2f\nPontos turísticos: %i\n PIB per capita %.2f\n Densidade: %.2f\n Super poder: %.2f\n", populacao32, area32, pib32, pt32, pibpercap32, densidade32, superpoder32);
-        }
-        
-        printf("Escolha o atributo a ser comparado: 1-populacao\n 2-área\n 3-PIB\n 4-pontos turísticos\n 5-pib per capita\n 6-densidade populacional\n 7-super poder\n (digite o número usadao para o atributo)");
-        scanf("%d", &escolhac);
-    }
+        return 0;
+}
 
     // Comparação de Cartas:
     // Desenvolva a lógica de comparação entre duas cartas.
