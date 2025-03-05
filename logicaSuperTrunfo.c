@@ -810,49 +810,52 @@ int main() {
     
         printf("Escolha um dos atributos para a comparação: 1-população\n 2-área\n 3-pib\n 4-pontos turísticos\n 5-pib per capita\n 6-densidade populacional\n 7-super poder\n");
         scanf("%i", &escolha);
-        if(escolha == 1){
-            if(populacao>populacao2){
+        
+        
+        switch(escolha){
+        case 1:
+            if (populacao>populacao2){
                 printf("Cidade 1 venceu");
             }else{
                 printf("Cidade 2 venceu");
             }
-        }
-        if(escolha == 2 ){
+        
+        case 2:
             if(area>area2){
                 printf("Cidade 1 venceu");
             }else{
                 printf("Cidade 2 venceu");
             }
-        }
-        if(escolha == 3){
+        
+        case 3: 
             if(pib>pib2){
                 printf("Cidade 1 venceu");
             }else{
                 printf("Cidade 2 venceu");
             }
-        }
-        if(escolha == 4){
+        
+        case 4:
             if(pt>pt2){
                 printf("Cidade 1 venceu");
             }else{
                 printf("Cidade 2 venceu");
             }
-        }
-        if(escolha == 5){
+        
+        case 5:
             if(pibpercap>pibpercap2){
                 printf("Cidade 1 venceu");
             }else{
                 printf("Cidade 2 venceu");
             }
-        }
-        if(escolha == 6){
+        
+        case 6:
             if(densidade<densidade2){
                 printf("Cidade 1 venceu");
             }else{
                 printf("Cidade 2 venceu");
             }
-        }
-        if(escolha == 7){
+        
+        case 7:
             if(superpoder>superpoder2){
                 printf("Cidade 1 venceu");
             }else{
